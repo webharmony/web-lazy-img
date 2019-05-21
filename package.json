@@ -1,0 +1,40 @@
+{
+  "name": "@webharmony/web-lazy-img",
+  "version": "1.2.0",
+  "description": "Custom element for handle lazy load images with placeholder img and blur effect",
+  "main": "lib/web-lazy-img.js",
+  "module": "lib/web-lazy-img.js",
+  "repository": "webharmony/web-lazy-img",
+  "scripts": {
+    "build": "tsc",
+    "tsc:watch": "tsc --watch",
+    "serve": "gulp serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint --project ./",
+    "rollup": "rollup --config ./rollup.config.js"
+  },
+  "author": {
+    "name": "Sebastian Muszyński",
+    "email": "kontakt@webharmony.dev",
+    "url": "https://webharmony.dev"
+  },
+  "homepage": "https://webharmony.dev/components/web-lazy-img",
+  "license": "BSD",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.10",
+    "lit-element": "^2.1.0"
+  },
+  "devDependencies": {
+    "del": "^4.1.0",
+    "google-closure-compiler-js": "^20190325.0.0",
+    "gulp": "^4.0.0",
+    "gulpclass": "^0.2.0",
+    "rollup": "^1.10.0",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-uglify": "^6.0.2",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.5"
+  }
+}
